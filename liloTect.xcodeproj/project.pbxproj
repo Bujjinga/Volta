@@ -8,12 +8,13 @@
 
 /* Begin PBXFileReference section */
 		93D7A3A430909CC800B1AC30 /* liloTect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liloTect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D7A3C63090A2B000B1AC30 /* Volta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Volta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		93D7A3A630909CC800B1AC30 /* liloTect */ = {
+		93D7A3C73090A2B000B1AC30 /* Volta */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = liloTect;
+			path = Volta;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -24,13 +25,18 @@
 			files = (
 			);
 		};
+		93D7A3C33090A2B000B1AC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		93D7A39B30909CC700B1AC30 = {
 			isa = PBXGroup;
 			children = (
-				93D7A3A630909CC800B1AC30 /* liloTect */,
+				93D7A3C73090A2B000B1AC30 /* Volta */,
 				93D7A3A530909CC800B1AC30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				93D7A3A430909CC800B1AC30 /* liloTect.app */,
+				93D7A3C63090A2B000B1AC30 /* Volta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +63,27 @@
 			);
 			buildRules = (
 			);
-			fileSystemSynchronizedGroups = (
-				93D7A3A630909CC800B1AC30 /* liloTect */,
-			);
 			name = liloTect;
 			productName = liloTect;
 			productReference = 93D7A3A430909CC800B1AC30 /* liloTect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93D7A3C53090A2B000B1AC30 /* Volta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D7A3CE3090A2B100B1AC30 /* Build configuration list for PBXNativeTarget "Volta" */;
+			buildPhases = (
+				93D7A3C23090A2B000B1AC30 /* Sources */,
+				93D7A3C33090A2B000B1AC30 /* Frameworks */,
+				93D7A3C43090A2B000B1AC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				93D7A3C73090A2B000B1AC30 /* Volta */,
+			);
+			name = Volta;
+			productName = Volta;
+			productReference = 93D7A3C63090A2B000B1AC30 /* Volta.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -75,6 +97,9 @@
 				LastUpgradeCheck = 2710;
 				TargetAttributes = {
 					93D7A3A330909CC800B1AC30 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					93D7A3C53090A2B000B1AC30 = {
 						CreatedOnToolsVersion = 27.1;
 					};
 				};
@@ -94,6 +119,7 @@
 			projectRoot = "";
 			targets = (
 				93D7A3A330909CC800B1AC30 /* liloTect */,
+				93D7A3C53090A2B000B1AC30 /* Volta */,
 			);
 		};
 /* End PBXProject section */
@@ -104,10 +130,20 @@
 			files = (
 			);
 		};
+		93D7A3C43090A2B000B1AC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		93D7A3A030909CC800B1AC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		93D7A3C23090A2B000B1AC30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
 			);
@@ -293,6 +329,102 @@
 			};
 			name = Release;
 		};
+		93D7A3CF3090A2B100B1AC30 /* Debug configuration for PBXNativeTarget "Volta" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSFocusStatusUsageDescription = "Volta checks your Focus status so it can stay quiet during Do Not Disturb.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bashirul.Volta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Volta/Services/SMC/Volta-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		93D7A3D03090A2B100B1AC30 /* Release configuration for PBXNativeTarget "Volta" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSFocusStatusUsageDescription = "Volta checks your Focus status so it can stay quiet during Do Not Disturb.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bashirul.Volta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Volta/Services/SMC/Volta-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -309,6 +441,14 @@
 			buildConfigurations = (
 				93D7A3B030909CC800B1AC30 /* Debug configuration for PBXNativeTarget "liloTect" */,
 				93D7A3B130909CC800B1AC30 /* Release configuration for PBXNativeTarget "liloTect" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		93D7A3CE3090A2B100B1AC30 /* Build configuration list for PBXNativeTarget "Volta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D7A3CF3090A2B100B1AC30 /* Debug configuration for PBXNativeTarget "Volta" */,
+				93D7A3D03090A2B100B1AC30 /* Release configuration for PBXNativeTarget "Volta" */,
 			);
 			defaultConfigurationName = Release;
 		};

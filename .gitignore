@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Xcode – per-user state and build output
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcarchive
+
+# Distribution artifacts
+*.dmg
+*.zip
+ExportOptions.plist
+
+# Swift Package Manager
+.swiftpm/
+.build/
